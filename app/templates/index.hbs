@@ -2,9 +2,15 @@
 
 aks me anything...
 <ul>
-  {{#each model as |question|}}
+  {{#each model.questions as |question|}}
     {{question-tile question=question}}
   {{/each}}
 </ul>
 
 {{new-question saveQuestion2="saveQuestion3"}}
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.content}} - {{answer.author}}</li>
+  {{/each}}
+</ul>

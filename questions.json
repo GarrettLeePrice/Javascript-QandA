@@ -10,5 +10,13 @@
     "author": "George",
     "query": "Why does your face look like that?",
     "notes": "its all fucked up"
+  }],
+  "answers": [{
+    "author": "Bob",
+    "content": "go fuck yourself"
+  }, {
+    "author": "ken",
+    "content": "go love yourself"
+
   }]
 }
