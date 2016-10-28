@@ -1,4 +1,4 @@
 <h2>{{model.author}}'s Question</h2>
 {{edit-question question=model edit="edit"}}
 {{question-detail question=model destroyQuestion="destroyQuestion"}}
-<h2>Answers</h2>
+{{new-answer saveAnswer="saveAnswer" question=model}}
