@@ -1,7 +1,13 @@
-# Qand-a
+# QandA.com
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### _A question and answer web application, 28th October 2016_
+
+#### By _**Garrett Price**_
+
+## Description
+
+_This page allows a user to add questions as well as answer questions added by others. Users can click on questions to see additional information and edit questions_
+
 
 ## Prerequisites
 
@@ -13,17 +19,13 @@ You will need the following things properly installed on your computer.
 * [Ember CLI](http://ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
 
-## Installation
+## Setup/Installation Requirements
 
-* `git clone <repository-url>` this repository
-* `cd qand-a`
-* `npm install`
-* `bower install`
+* Clone project from GitHub
+* Run npm install from top level directory of project
+* Run bower install from top level directory of project
+* Run ember s from top level directory of project
 
-## Running / Development
-
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ### Code Generators
 
@@ -48,6 +50,19 @@ Specify what it takes to deploy your app.
 * [ember.js](http://emberjs.com/)
 * [ember-cli](http://ember-cli.com/)
 * Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+* [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
+* [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Support and contact details
+
+_Contact garrettleeprice@gmail.com with comments or questions_
+
+## Technologies Used
+
+_This project uses node.js with npm and bower to manage dependencies and the Ember.js framework._
+
+### License
+
+*MIT License*
+
+Copyright (c) 2016 **_Garrett Price_**
