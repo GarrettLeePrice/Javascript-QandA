@@ -1,10 +1,14 @@
-<h1>Welcome to AskMe.com</h1>
+<div class="container">
+  <h1>Welcome to AskMe.com</h1>
 
-aks me anything...
-<ul>
-  {{#each model.questions as |question|}}
-    {{question-tile question=question}}
-  {{/each}}
-</ul>
+  <h3>Ask me anything...</h3>
+  <hr>
 
-{{new-question saveQuestion2="saveQuestion3"}}
+  <ul>
+    {{#each model.questions as |question|}}
+      {{question-tile question=question}}
+    {{/each}}
+  </ul>
+
+  {{new-question saveQuestion2="saveQuestion3"}}
+</div>
