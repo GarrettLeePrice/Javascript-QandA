@@ -1,10 +1,8 @@
 <h1>Welcome to AskMe.com</h1>
 
 aks me anything...
-
 <ul>
   {{#each model as |question|}}
-    <li><h1>{{question.query}}</h1></li>
-    <li><p>from: {{question.author}}</p></li>
-{{/each}}
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
+  {{/each}}
 </ul>
