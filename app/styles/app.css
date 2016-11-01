@@ -1,0 +1,39 @@
+
+body {
+  background-image: url("http://manrepeller.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/youtube-magic8ball.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#author, #query, #notes, #content {
+  width: 300px;
+}
+#brandButton {
+  color: white;
+}
+
+.navbar-brand {
+  background-color: red;
+  color: white;
+}
+
+.well {
+  width: 500px;
+  background-color: rgba(245, 245, 245, 0.9);
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  background-color: red;
+  border-radius:5px;
+  color: white;
+}
+a {
+  color: red;
+
+}
+a:hover {
+  color: black;
+
+}

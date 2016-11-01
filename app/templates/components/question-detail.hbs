@@ -1,10 +1,9 @@
-{{question.query}}<p>from: {{question.author}}</p>
+{{question.query}} -  from: {{question.author}}
 <p>additional notes: {{question.notes}}</p>
 <button {{action 'delete' question}}>Delete</button>
 <hr>
 <h2>Answers</h2>
-<ul>
+
   {{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
   {{/each}}
-</ul>

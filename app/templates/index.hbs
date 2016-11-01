@@ -1,14 +1,16 @@
 <div class="container">
-  <h1>Welcome to AskMe.com</h1>
+  <div class="well">
+    <h1>Welcome to AskMe.com</h1>
 
-  <h3>Ask me anything...</h3>
-  <hr>
+      <h3>Ask me anything...</h3>
+      <hr>
 
-  <ul>
-    {{#each model.questions as |question|}}
-      {{question-tile question=question}}
-    {{/each}}
-  </ul>
+      <h4>Questions:</h4>
+          {{#each model.questions as |question|}}
+          {{question-tile question=question}}
+        {{/each}}
 
-  {{new-question saveQuestion2="saveQuestion3"}}
+
+      {{new-question saveQuestion2="saveQuestion3"}}
+    </div>
 </div>
