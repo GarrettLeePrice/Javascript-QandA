@@ -1,9 +1,8 @@
-{{question.query}} -  from: {{question.author}}
-<p>additional notes: {{question.notes}}</p>
+<h4>{{question.query}} -  from: {{question.author}}</h4>
+<h5>additional notes: {{question.notes}}</h5>
 <button {{action 'delete' question}}>Delete</button>
 <hr>
 <h2>Answers</h2>
-
-  {{#each question.answers as |answer|}}
+{{#each question.answers as |answer|}}
     {{answer-tile answer=answer}}
-  {{/each}}
+{{/each}}
