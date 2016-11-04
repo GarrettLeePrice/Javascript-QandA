@@ -6,7 +6,7 @@
 
 ## Description
 
-_This page allows a user to add questions as well as answer questions added by others. Users can click on questions to see additional information and edit questions_
+_This page allows a user to add questions as well as answer questions added by others. Users can click on questions to see additional information and edit questions. User can click a button to add questions to a list of favorite questions. A fire icon will appear next to any question with two or more answers. Two fire icons will appear next to any questions with four or more answers._
 
 
 ## Prerequisites
