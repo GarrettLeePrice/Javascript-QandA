@@ -1,3 +1,3 @@
 {{#each favQuestions.questions as |question|}}
-  {{question.query}}
+  <h4>{{#link-to 'question' question.id}}{{question.query}}{{/link-to}} from: {{question.author}} {{question.authorlast}}</h4>
 {{/each}}
