@@ -1,4 +1,4 @@
 <h4>
-  {{#link-to 'question' question.id}}{{question.query}}{{/link-to}} from: {{fullName}}
+  {{#link-to 'question' question.id}}{{question.query}}{{/link-to}} from: {{fullName}}  {{question-popularity question}}
 </h4>
 <button {{action 'addToFavs' question}}>Add to Favaorites</button>
