@@ -1,11 +1,12 @@
 
 body {
-  background-image: url("http://manrepeller.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/youtube-magic8ball.jpg");
+  /*background-image: url("http://manrepeller.wpengine.netdna-cdn.com/wp-content/uploads/2015/04/youtube-magic8ball.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  background-color: silver;
 }
 
-#author, #query, #notes, #content {
+#author, #authorlast, #query, #notes, #content {
   width: 300px;
 }
 #brandButton {
