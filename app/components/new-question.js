@@ -14,6 +14,11 @@ export default Ember.Component.extend({
         query: this.get('query') ? this.get('query') : "",
         notes: this.get('notes') ? this.get('notes') : "",
       };
+
+      this.set('author', '');
+      this.set('authorlast', '');
+      this.set('query', '');
+      this.set('notes', '');
       this.set('addNewQuestion', false);
       this.sendAction('saveQuestion2', params);
     }
