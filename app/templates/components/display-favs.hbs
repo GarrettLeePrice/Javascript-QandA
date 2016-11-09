@@ -1,3 +1,4 @@
 {{#each favQuestions.questions as |question|}}
   <h4>{{#link-to 'question' question.id}}{{question.query}}{{/link-to}} from: {{question.author}} {{question.authorlast}}</h4>
+  <button {{action 'deleteFav' question}}>Remove</button>
 {{/each}}

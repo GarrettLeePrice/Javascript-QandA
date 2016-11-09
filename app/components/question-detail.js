@@ -7,7 +7,7 @@ export default Ember.Component.extend({
   actions: {
     destroyAnswer(answer) {
       answer.destroyRecord();
-      this.transitionTo('index');
+    
     },
     delete(question) {
       if (confirm('Are you sure you want to delete this question?')) {

@@ -28,6 +28,7 @@ button {
   background-color: red;
   border-radius:5px;
   color: white;
+  border:none;
 }
 a {
   color: red;
