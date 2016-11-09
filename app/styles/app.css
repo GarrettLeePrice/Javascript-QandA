@@ -4,6 +4,20 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+button {
+  background-color: red;
+  border-radius:5px;
+  color: white;
+  border:none;
+}
+a {
+  color: red;
+
+}
+a:hover {
+  color: black;
+
+}
 
 #author, #authorlast, #query, #notes, #content {
   width: 300px;
@@ -24,21 +38,10 @@ body {
   border-radius: 10px;
 }
 
-button {
-  background-color: red;
-  border-radius:5px;
-  color: white;
-  border:none;
-}
-a {
-  color: red;
-
-}
-a:hover {
-  color: black;
-
-}
-
 .glyphicon {
   color: red;
+}
+
+.newAnswerButton {
+  margin-top: 20px;
 }
